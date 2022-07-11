@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "42100852079",
+    "project_id": "web-elvis-com",
+    "storage_bucket": "web-elvis-com.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42100852079:android:a91f69c09cfeeebf0b549a",
+        "android_client_info": {
+          "package_name": "com.elvis.web"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42100852079-otvf2u7qu0ijbbakbuelnb0gis0rnhdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkusp3e875nlioiYlDzWG17-sV7N4DSeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42100852079-otvf2u7qu0ijbbakbuelnb0gis0rnhdk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "42100852079-l6vrldfhabors96j8b2g65u4fe46gdmv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.elvis.web"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
