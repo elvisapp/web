@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:web/src/home/home_controller.dart';
+import 'package:web/src/pages/pages_controller.dart';
 
 class PageDart extends StatelessWidget {
-  const PageDart({Key? key}) : super(key: key);
+  PagesController _con = PagesController();
+  // const PageDart({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    _con.init(context);
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 127, 4, 165),
       ////////////////////////////////////Resto del Body
@@ -50,9 +54,7 @@ class PageDart extends StatelessWidget {
 
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          launch(
-              "https://api.whatsapp.com/send/?phone=5511914818483&text=Ola&type=phone_number&app_absent=0",
-              forceWebView: true);
+          _con.whatsAppOpen();
         },
         backgroundColor: Colors.green,
         child: const Icon(Icons.whatsapp_rounded),
