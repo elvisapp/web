@@ -279,7 +279,7 @@ class HomePage extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Text('Desarrollador de Web y App -->'),
+          Text('Desarrollador de Web y App --> vamos que vamos'),
           GestureDetector(
             onTap: () {},
             child: CircleAvatar(
