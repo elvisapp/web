@@ -4,12 +4,12 @@ import 'package:web/src/home/home_controller.dart';
 import 'package:web/src/pages/pages_controller.dart';
 
 class PageDart extends StatelessWidget {
-  PagesController _con = PagesController();
+  PagesController _to = PagesController();
   // const PageDart({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    _con.init(context);
+    _to.init(context);
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 127, 4, 165),
       ////////////////////////////////////Resto del Body
@@ -31,6 +31,7 @@ class PageDart extends StatelessWidget {
             SizedBox(
               height: 30,
             ),
+            // _to.fotosPerfil(),
             _fotosPerfil(),
             ////////////////////////////
 
@@ -54,7 +55,7 @@ class PageDart extends StatelessWidget {
 
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          _con.whatsAppOpen();
+          _to.whatsAppOpen();
         },
         backgroundColor: Colors.green,
         child: const Icon(Icons.whatsapp_rounded),

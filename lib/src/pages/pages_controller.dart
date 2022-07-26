@@ -17,6 +17,63 @@ class PagesController {
         forceWebView: true);
   }
 
+  fotosPerfil() {
+    return Wrap(
+      spacing: 15.0, // gap between adjacent chips
+      runSpacing: 10.0, // gap between lines
+      children: <Widget>[
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/O8TP608.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/oS3oWGa.png'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/cdMYJ8X.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/CRPFi1w.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/iGcMz5K.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/nYdGEvq.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/CvIviAA.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/UEdMELp.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/jTHPOsO.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/jTHPOsO.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/jTHPOsO.jpg'),
+        ),
+        const Image(
+          width: 350,
+          image: NetworkImage('https://i.imgur.com/jTHPOsO.jpg'),
+        ),
+      ],
+    );
+  }
+
 //Metodo para pasar de pagina agregando gestoDetec y luego onTap
 
   // void goToLoginPagePerfil() {

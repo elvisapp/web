@@ -155,6 +155,9 @@ class HomePage extends StatelessWidget {
               radius: 30,
               child: TextButton(
                 onPressed: () {
+                  CircularProgressIndicator(
+                    backgroundColor: Colors.amber,
+                  );
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => PageDart()),
@@ -170,6 +173,9 @@ class HomePage extends StatelessWidget {
               radius: 30,
               child: TextButton(
                 onPressed: () {
+                  CircularProgressIndicator(
+                    backgroundColor: Colors.amber,
+                  );
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => PageJava()),
