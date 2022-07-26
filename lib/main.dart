@@ -16,7 +16,7 @@ void main() async {
 class Web extends StatelessWidget {
   Web({Key? key}) : super(key: key);
 
-  Color _primaryColor = HexColor('#999906');
+  Color _primaryColor = HexColor('#999905');
   Color accentColor = HexColor('#030303');
 
   // This widget is the root of your application.
